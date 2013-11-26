@@ -113,4 +113,4 @@ exist after it's set expiration time, until ```run_expiration``` is called.
 If high precision is a requirement, a suggestion is to filter out models that should have expired in the query set.
 This will ensure that the model isn't showing up anywhere in your project even if it's not yet removed.
 
-
+See the example project for a simple setup of django-expirables
