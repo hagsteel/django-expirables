@@ -3,12 +3,12 @@ django expirables
 
 Set an expiration time for your django models.
 
+
 ## Description
 
 Expire django models after a certain time.
 
 You can expire models after a set number of ```days``` / ```hours``` / ```minutes``` (or even ```seconds```)
-
 
 
 ## Installation 
@@ -42,6 +42,7 @@ where the model is the model you want to expire, and the date_field is the field
 
 
 Example configuration:
+
         EXPIRABLES = [
             {
                 'model': 'myproject.someapp.models.ExpirableModel',
