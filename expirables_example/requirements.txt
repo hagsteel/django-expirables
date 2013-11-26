@@ -1,0 +1,2 @@
+Django
+-e git://github.com/jonashagstedt/django-expirables.git#egg=expirables
